@@ -144,7 +144,7 @@ dh_make_y()
 
 # set LANG so that dpkg etc. return the expected responses so the script is
 # guaranteed to work under different locales
-export LANG="C"
+# export LANG="C"
 
 # this is the release number for the Debian packages
 RELEASE=1
